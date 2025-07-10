@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    height: 100vh;
+    height: 95vh;
     position: relative; /* deixando relative a posição do container, permitindo que os elementos dentro sejam configurados com o position: relative*/
 }
 
@@ -44,4 +44,21 @@ iframe#tela {
     height: 473px;
 }
 
+footer > p {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 8px;
+}
 
+footer > p > a {
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+footer > p > a:visited {
+    color: inherit;
+}
