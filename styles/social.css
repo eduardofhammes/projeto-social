@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* retirando a scrollbar para deixar apenas a imagem ocupando toda a largura*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* deixando a imagem para ocupar toda a tela*/
+img {
+    width: 100vw;
+}
+        
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px 10px 0px 0px;
+
+}
+a:hover {
+    text-decoration: underline;
+}
