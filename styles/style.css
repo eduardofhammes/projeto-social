@@ -44,6 +44,24 @@ iframe#tela {
     height: 473px;
 }
 
+section#redes-sociais {
+    text-align: right;
+}
+
+/* configurando as imagens da section redes sociais do projeto */
+section#redes-sociais img {
+    width: 60px;
+    margin: 8px; /* separando as imagens uma das outras*/
+    border-radius: 50%; /* permitindo deixar as imgaens redondas */
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.295); /* colocando sombra nas imagens*/
+}
+
+section#redes-sociais img:hover {
+    transform: translate(-5px, -5px); /* movendo levemente o botão quando passado por ele */
+    transition: transform 0.6s; /* diz o tempo do atributo "transform", suavizando a transição de aumento das imagens*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295); /* aumentando a sombra nas imagens quando se movimentam, permitindo que o efeito seja maior*/
+}
+
 footer > p {
     color: white;
     display: block;
