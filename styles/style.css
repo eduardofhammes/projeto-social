@@ -51,7 +51,7 @@ section#redes-sociais {
 /* configurando as imagens da section redes sociais do projeto */
 section#redes-sociais img {
     width: 60px;
-    margin: 8px; /* separando as imagens uma das outras*/
+    margin: 9px; /* separando as imagens uma das outras*/
     border-radius: 50%; /* permitindo deixar as imgaens redondas */
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.295); /* colocando sombra nas imagens*/
 }
